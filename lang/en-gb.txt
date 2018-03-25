@@ -1,0 +1,6 @@
+{
+    "lang": "en-gb",
+    "Cert Widget": "Cert Widget",
+    "SSL\/TLS Certificate Status": "SSL\/TLS Certificate Status",
+    "Issued by: ": "Issued by: "
+}
