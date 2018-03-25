@@ -12,10 +12,12 @@
 			<h2>
 			<?php echo $Lang->get('SSL/TLS Certificate Status'); ?>
 			</h2>
-			<a class="button button-small button-icon icon-left action-info" href="/perch/core/settings/#impeng_certdash">
-				<div>
-					<span>Settings</span>
-				</div>
+			<?php $link = $HTML->encode(PERCH_LOGINPATH.'/core/settings/#impeng_certdash'); 
+				echo '<a class="button button-small button-icon icon-left action-info" href="'.$link.'">';
+			?>
+			<div>
+				<span><?php echo $Lang->get('Settings'); ?></span>
+			</div>
 			</a>
 		</header>
 		<div class="body">
