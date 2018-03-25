@@ -1,6 +1,6 @@
 <?php
    	if ($CurrentUser->logged_in()) {
-   		$this->register_app('impeng_certdash', 'SSL/TLS Certificate Status', 1, 'Dashboard Widget to show status of SSL/TLS certificate', '0.2', true);
+   		$this->register_app('impeng_certdash', 'SSL/TLS Certificate Status', 1, 'Dashboard Widget to show status of SSL/TLS certificate', '0.4', true);
     	$this->require_version('impeng_certdash', '3.0');
     	$opts = array();
     	foreach (range(0, 30) as $number) {

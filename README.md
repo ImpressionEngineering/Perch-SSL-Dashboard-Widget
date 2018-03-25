@@ -3,7 +3,7 @@
 
 A Perch dashboard widget that shows when the installed SSL/TLS certificate will expire. 
 
-It was created to give a headline indication that short duration certificates, like those from [Let's Encrypt](https://letsencrypt.org/), are being actiively being renewed.
+It was created to give a headline indication that short duration certificates, like those from [Let's Encrypt](https://letsencrypt.org/), are being actively being renewed.
 
 ![Screenshot](images/impeng_certdash-screenshot1.png)
 
