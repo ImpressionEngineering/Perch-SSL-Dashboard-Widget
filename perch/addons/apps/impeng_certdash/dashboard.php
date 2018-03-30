@@ -40,11 +40,11 @@
 					echo "<li>";
 						switch(true) {
 
-							case ($daysLeft < $daysAlert) :
+							case ($daysLeft <= $daysAlert) :
 								echo PerchUI::icon('core/circle-delete', 16, null, 'icon-status-alert');
 								break;
 
-							case ($daysLeft > $daysAlert && $daysLeft < $daysWarn) :
+							case ($daysLeft >= $daysAlert && $daysLeft <= $daysWarn) :
 								echo PerchUI::icon('core/alert', 16, null, 'icon-status-warning');
 								break;
 
